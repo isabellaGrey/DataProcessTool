@@ -9,11 +9,11 @@ public class ShortText {
 	public void _formedText(String instream, String outstream ) throws IOException{
 		BufferedReader reader = new BufferedReader( new InputStreamReader( new FileInputStream (instream), "UTF-8" ) );
 		BufferedWriter output = new BufferedWriter( new OutputStreamWriter( new FileOutputStream (outstream), "UTF-8" ) );
-		String line = reader.readLine(); //
-		String category = null; //
-		String text = null; //
-		int currentFirstCommaIndex; //
-		int currentFirstCurveIndex; //
+		String line = reader.readLine(); 
+		String category = null; 
+		String text = null; 
+		int currentFirstCommaIndex; 
+		int currentFirstCurveIndex; 
 		line = reader.readLine();
 		while (line !=null){
 			
